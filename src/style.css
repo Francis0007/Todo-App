@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+.new-item-form{
+    margin-top: 20%;
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .new-item-form{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        font-size: 29px;
+        width: 100%;
+    }
+}
+.heading{
+    font-size: 27px;
+}
+@media screen and (max-width: 767px) {
+    input[type=text], select, textarea{
+        width: 20px;
+    }}
+
+input[type=text], select, textarea {
+    width: 230px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    }
+
+    
+  .btn{
+    background-color: black;
+    color: blue;
+    width: 90px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    border: 2px solid blue;
+    }
+    .btn-danger{
+        border: 2px solid red;
+        color: red;
+        font-size: 14px;
+        background-color: black;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 10px;
+    }
+    input[type=checkbox] {
+        width: 25px;
+        height: 20px;
+        font-size: 20px;
+    }
